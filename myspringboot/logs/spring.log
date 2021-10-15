@@ -8172,3 +8172,111 @@ Using generated security password: c6191a98-88b2-4a01-b510-9c4f8f9bf5c5
 2021-10-15 14:18:24.005  INFO 16984 --- [restartedMain] c.m.m.r.MyRunner                         : Hello Bean : 운영 Mode
 2021-10-15 14:18:24.006  INFO 16984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
 2021-10-15 14:18:24.010  WARN 16984 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://DESKTOP-GQLI38C:8088/actuator, healthUrl=http://DESKTOP-GQLI38C:8088/actuator/health, serviceUrl=http://DESKTOP-GQLI38C:8088/) at spring-boot-admin ([http://localhost:8090/instances]): I/O error on POST request for "http://localhost:8090/instances": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information. Further attempts are logged on DEBUG level
+2021-10-15 14:21:20.327  INFO 16984 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-15 14:21:20.329  INFO 16984 --- [Thread-19] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown initiated...
+2021-10-15 14:21:20.332  INFO 16984 --- [Thread-19] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown completed.
+2021-10-15 14:21:20.449  INFO 16984 --- [restartedMain] c.m.m.MyspringbootApplication            : Starting MyspringbootApplication using Java 16.0.2 on DESKTOP-GQLI38C with PID 16984 (C:\Users\MongTa\git\myspringboot\myspringboot\target\classes started by MongTa in C:\Users\MongTa\git\myspringboot\myspringboot)
+2021-10-15 14:21:20.450  INFO 16984 --- [restartedMain] c.m.m.MyspringbootApplication            : The following profiles are active: base
+2021-10-15 14:21:20.815  INFO 16984 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-15 14:21:20.850  INFO 16984 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2021-10-15 14:21:20.965  INFO 16984 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2021-10-15 14:21:20.966  INFO 16984 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-10-15 14:21:20.966  INFO 16984 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 14:21:20.990  INFO 16984 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-10-15 14:21:20.990  INFO 16984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 536 ms
+2021-10-15 14:21:21.022  INFO 16984 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Starting...
+2021-10-15 14:21:21.024  INFO 16984 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Start completed.
+2021-10-15 14:21:21.024  INFO 16984 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC'
+2021-10-15 14:21:21.064  INFO 16984 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 14:21:21.069  INFO 16984 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2021-10-15 14:21:21.122  INFO 16984 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-15 14:21:21.122  INFO 16984 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-15 14:21:21.141  INFO 16984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-15 14:21:21.163  WARN 16984 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-15 14:21:21.262  INFO 16984 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-15 14:21:21.390  INFO 16984 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 86c2aa24-8029-4806-b775-317709325dd4
+
+2021-10-15 14:21:21.397  INFO 16984 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12e61801, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d121adc, org.springframework.security.web.header.HeaderWriterFilter@7bc3b5ae, org.springframework.security.web.csrf.CsrfFilter@3c39191, org.springframework.security.web.authentication.logout.LogoutFilter@190c0473, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f50863d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69582cbc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a73eb2d, org.springframework.security.web.session.SessionManagementFilter@12c9f533, org.springframework.security.web.access.ExceptionTranslationFilter@7f29bb38]
+2021-10-15 14:21:21.410  INFO 16984 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 12 endpoint(s) beneath base path '/actuator'
+2021-10-15 14:21:21.428  INFO 16984 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2021-10-15 14:21:21.441  INFO 16984 --- [restartedMain] c.m.m.MyspringbootApplication            : Started MyspringbootApplication in 1.044 seconds (JVM running for 1791.773)
+2021-10-15 14:21:21.443  INFO 16984 --- [restartedMain] c.m.m.r.MyRunner                         : Property Name : Mongta base properties
+2021-10-15 14:21:21.443  INFO 16984 --- [restartedMain] c.m.m.r.MyRunner                         : Property Age : 33
+2021-10-15 14:21:21.443  INFO 16984 --- [restartedMain] c.m.m.r.MyRunner                         : Property Full Name : Mongta base properties Good!!
+2021-10-15 14:21:21.443  INFO 16984 --- [restartedMain] c.m.m.r.MyRunner                         : Hello Bean : 운영 Mode
+2021-10-15 14:21:21.447  INFO 16984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' securityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-10-15 14:21:21.450  WARN 16984 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://DESKTOP-GQLI38C:8088/actuator, healthUrl=http://DESKTOP-GQLI38C:8088/actuator/health, serviceUrl=http://DESKTOP-GQLI38C:8088/) at spring-boot-admin ([http://localhost:8090/instances]): I/O error on POST request for "http://localhost:8090/instances": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information. Further attempts are logged on DEBUG level
+2021-10-15 14:26:30.757  INFO 16984 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-15 14:26:30.758  INFO 16984 --- [Thread-23] c.z.h.HikariDataSource                   : HikariPool-6 - Shutdown initiated...
+2021-10-15 14:26:30.760  INFO 16984 --- [Thread-23] c.z.h.HikariDataSource                   : HikariPool-6 - Shutdown completed.
+2021-10-15 14:26:30.876  INFO 16984 --- [restartedMain] c.m.m.MyspringbootApplication            : Starting MyspringbootApplication using Java 16.0.2 on DESKTOP-GQLI38C with PID 16984 (C:\Users\MongTa\git\myspringboot\myspringboot\target\classes started by MongTa in C:\Users\MongTa\git\myspringboot\myspringboot)
+2021-10-15 14:26:30.876  INFO 16984 --- [restartedMain] c.m.m.MyspringbootApplication            : The following profiles are active: base
+2021-10-15 14:26:31.309  INFO 16984 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-15 14:26:31.338  INFO 16984 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+2021-10-15 14:26:31.443  INFO 16984 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2021-10-15 14:26:31.444  INFO 16984 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-10-15 14:26:31.444  INFO 16984 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 14:26:31.467  INFO 16984 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-10-15 14:26:31.467  INFO 16984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 587 ms
+2021-10-15 14:26:31.500  INFO 16984 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Starting...
+2021-10-15 14:26:31.503  INFO 16984 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Start completed.
+2021-10-15 14:26:31.504  INFO 16984 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC'
+2021-10-15 14:26:31.548  INFO 16984 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 14:26:31.554  INFO 16984 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2021-10-15 14:26:31.606  INFO 16984 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-15 14:26:31.606  INFO 16984 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-15 14:26:31.622  INFO 16984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-15 14:26:31.638  WARN 16984 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-15 14:26:31.748  INFO 16984 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-15 14:26:31.898  INFO 16984 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 26345642-8743-47ce-b965-13410794b1bc
+
+2021-10-15 14:26:31.912  INFO 16984 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ce63ef5, org.springframework.security.web.context.SecurityContextPersistenceFilter@2bbfa2b4, org.springframework.security.web.header.HeaderWriterFilter@7af68187, org.springframework.security.web.csrf.CsrfFilter@22fbdb2d, org.springframework.security.web.authentication.logout.LogoutFilter@528685ba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6586f115, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5a17701a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2a883404, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@332f9b58, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ad28c2d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e6c649, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78547619, org.springframework.security.web.session.SessionManagementFilter@576139c6, org.springframework.security.web.access.ExceptionTranslationFilter@52767f59, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5352af52]
+2021-10-15 14:26:31.925  INFO 16984 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 12 endpoint(s) beneath base path '/actuator'
+2021-10-15 14:26:31.945  INFO 16984 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2021-10-15 14:26:31.962  INFO 16984 --- [restartedMain] c.m.m.MyspringbootApplication            : Started MyspringbootApplication in 1.138 seconds (JVM running for 2102.294)
+2021-10-15 14:26:31.964  INFO 16984 --- [restartedMain] c.m.m.r.MyRunner                         : Property Name : Mongta base properties
+2021-10-15 14:26:31.964  INFO 16984 --- [restartedMain] c.m.m.r.MyRunner                         : Property Age : 24
+2021-10-15 14:26:31.964  INFO 16984 --- [restartedMain] c.m.m.r.MyRunner                         : Property Full Name : Mongta base properties Good!!
+2021-10-15 14:26:31.964  INFO 16984 --- [restartedMain] c.m.m.r.MyRunner                         : Hello Bean : 운영 Mode
+2021-10-15 14:26:31.966  INFO 16984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-15 14:26:31.969  WARN 16984 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://DESKTOP-GQLI38C:8088/actuator, healthUrl=http://DESKTOP-GQLI38C:8088/actuator/health, serviceUrl=http://DESKTOP-GQLI38C:8088/) at spring-boot-admin ([http://localhost:8090/instances]): I/O error on POST request for "http://localhost:8090/instances": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information. Further attempts are logged on DEBUG level
